@@ -1,7 +1,6 @@
 # Project Name
 
-​**Note:**​ The source code will be open-sourced upon paper acceptance.  
-**加重强调**  (示例：粗体)
+​**Note**:​ The source code will be open-sourced upon paper acceptance.
 
 ## Method Details
 ### Hyperparameter Configuration
