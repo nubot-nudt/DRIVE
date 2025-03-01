@@ -1,6 +1,6 @@
 # Project Name
 
-⚠️ ​**Note:**​ The source code will be open-sourced upon paper acceptance.  
+​**Note:**​ The source code will be open-sourced upon paper acceptance.  
 
 ## Method Details
 ### Hyperparameter Configuration
@@ -22,6 +22,6 @@ The key hyperparameters and their values used in our method are summarized below
 | Inertial coefficients (M₀)   | [1,1,1,1,1,1]             |
 | Damping coefficients (D₀)    | [0.1,0.1,0.1,5.5,5.5,5.5] |
 | Stiffness coefficients (K₀)  | [500,500,500,500,500,500] |
-| Control period (Δt)           | 0.01 s                    |
+| Control period (Δt)           | 1/100 Hz                  |
 | PPO decision period          | 1/15 Hz                   |
 | Steering radius (R)          | 0.23 m                    |
