@@ -25,3 +25,4 @@ The key hyperparameters and their values used in our method are summarized below
 | Control period (Δt)           | 1/100 Hz                  |
 | PPO decision period          | 1/15 Hz                   |
 | Steering radius (R)          | 0.23 m                    |
+| Optimizer                    | Adam for all networks     |
