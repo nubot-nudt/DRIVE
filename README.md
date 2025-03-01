@@ -1,7 +1,6 @@
 # Project Name
 
 ⚠️ ​**Note:**​ The source code will be open-sourced upon paper acceptance.  
-*(This notice is highlighted with GitHub's warning syntax for visibility)*
 
 ## Method Details
 ### Hyperparameter Configuration
