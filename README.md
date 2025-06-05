@@ -15,7 +15,7 @@ If you use our code in your work, please star our repo and cite our paper.
 ```
 
 <div align=center>
-<img src="./docs/result.png"> 
+<img src="real_world_experiments.png"> 
 </div>
 
 **Results of real world experiments.**
@@ -23,7 +23,7 @@ If you use our code in your work, please star our repo and cite our paper.
 ### Overview
 
 <div align=center>
-<img src="./docs/result.png"> 
+<img src="framework.png"> 
 </div>
 
 **The hybrid control framework of DRIVE.** The main contributions of thiswork can be summarized as follows:
