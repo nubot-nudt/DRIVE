@@ -85,6 +85,8 @@ catkin build
 
 cd ~/Coppeliasim_Carla/Robcup_2022/TL_Code
 catkin_make
+
+echo 'source ~/Coppeliasim_Carla/Robcup_2022/TL_Code/devel/setup.bash' >> ~/.bashrc
 ```
 
 6、Carla 0.9.5
@@ -108,4 +110,43 @@ echo 'export PYTHONPATH=$PYTHONPATH:$CARLA_ROOT/PythonAPI/carla/dist/carla-0.9.5
 
 7、Carla_ROS_Bridge
 
+```
+cd ~/Coppeliasim_Carla/carla_ros_bridge
+catkin_make
+
+echo 'source ~/Coppeliasim_Carla/carla_ros_bridge/devel/setup.bash' >> ~/.bashrc
+```
+
+### Test
+
+1、Coppeliasim and Robcup_2022 jointly tested
+
+```
+roscore
+```
+
+```
+cd ~/Coppeliasim_Carla/Coppeliasim/src/CoppeliaSim_Edu_V4_1_0_Ubuntu20_04
+./coppeliaSim.sh
+```
+
+Start the Coppeliasim simulation software and perform the following steps in sequence: Click the navigation bar -> File-> Open Scene -> select the folder **~/Coppeliasim_Carla/Coppeliasim/src/CoppeliaSim_Edu_V4_1_0_Ubuntu20_04/scenes/pummba** -> select file **Vrep_steering_wheel_with_7Dof.ttt**.
+
+```
+rosrun r7_auto_sim r7_auto_sim_control
+```
+
+Click the **right triangle execution button** in the upper right corner of the Coppeliaim interface. At this point, the robot's left arm turns the steering wheel, and the installation is successful.
+
+2、DRIVE test
+
+```
+bash ~/Coppeliasim_Carla/carla_with_coppeliasim.sh
+```
+
+If everything goes smoothly, the ROS, Coppeliasim and Carla software will be launched in sequence.
+
+In addition, the autonomous control code of the robotic arm in Coppeliasim and the reinforcement learning training code for intelligent vehicles will also be executed.
+
+**It should be noted** that after starting Coppeliasim, there will be 30 seconds for the reader to select the "vrep_steering_wheel_with_7Dof.ttt" robotic arm file; At the same time, after the reinforcement learning training code is started, click the right triangle start button in the upper right corner of Coppeliasim, and the code will start to execute. Before the code is executed, the pygame interface is black screen, which is normal. After startup, the vehicle will be loaded and training will begin.
 
