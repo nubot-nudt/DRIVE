@@ -6,7 +6,31 @@ This repo contains the implementation of our paper:
 > **DRIVE: A Unified Framework for Empowering Personalized Autonomous Driving with Humanoid Robots**
 > 
 > Junkai Ren, Jiawei Luo*, Chuang Cheng, Yansong Feng, Tuochang Wu, Huimin Lu, Zongtan Zhou*, Xin Xu
->
+
+If you use our code in your work, please star our repo and cite our paper.
+
+```
+@inproceedings{
+}
+```
+
+<div align=center>
+<img src="./docs/result.png"> 
+</div>
+
+**Results of real world experiments.**
+
+### Overview
+
+<div align=center>
+<img src="./docs/result.png"> 
+</div>
+
+**The hybrid control framework of DRIVE.** The main contributions of thiswork can be summarized as follows:
+
+- End-to-end learning with embedded admittance control and preference adaptation.
+- Pioneering joint simulation framework for humanoid-driven vehicles.
+- Comprehensive sim-to-real validation and performance analysis.
 
 ### Hyperparameters and Values
 
@@ -150,3 +174,9 @@ In addition, the autonomous control code of the robotic arm in Coppeliasim and t
 
 **It should be noted** that after starting Coppeliasim, there will be 30 seconds for the reader to select the "vrep_steering_wheel_with_7Dof.ttt" robotic arm file; At the same time, after the reinforcement learning training code is started, click the right triangle start button in the upper right corner of Coppeliasim, and the code will start to execute. Before the code is executed, the pygame interface is black screen, which is normal. After startup, the vehicle will be loaded and training will begin.
 
+
+### Contact
+
+Please contact us with any questions or suggestions!
+
+Jiawei Luo: jiaweiluo@nudt.edu.cn  and JunKai Ren: jkren@nudt.edu.cn
