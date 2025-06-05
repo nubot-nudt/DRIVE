@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+
+<launch>
+
+<node pkg="joy" name="joy" type="joy_node">
+<remap from= "/joy" to= "/joy" />
+<param name = "dev" type="string" value = "/dev/input/js0" />
+</node>
+
+<node pkg="joy" name="joy1" type="joy_node">
+<remap from= "/joy" to= "/joy1" />
+<param name = "dev" type="string" value = "/dev/input/js1" />
+</node>
+
+<node pkg="joy" name="joy2" type="joy_node">
+<remap from= "/joy" to= "/joy2" />
+<param name = "dev" type="string" value = "/dev/input/js2" />
+</node>
+
+<!--<node name="pumbaa_cobra_link" type="pumbaa_cobra_link" pkg="pumbaa_cobra_link" >
+</node> -->
+</launch>

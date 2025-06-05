@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<launch>
+
+    <!-- Lidar -->
+    <include file="$(find wj_716_lidar)/launch/wj_716_lidar_01.launch"/>  
+    <!-- Tf -->
+    <include file="$(find smartcar_slam)/launch/tf_hector.launch"/>
+    
+    <!-- Robot model & Rviz --> 
+    <include file="$(find smartcar_description)/launch/display_smartcar.launch"/>
+
+    <!-- hector slam -->
+    <include file="$(find smartcar_slam)/launch/hector.launch"/>
+
+</launch>

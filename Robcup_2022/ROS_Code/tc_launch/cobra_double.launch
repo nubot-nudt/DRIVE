@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+
+<launch>
+<arg name="rviz" default="false"/>
+
+        <node name="cobra_joy" type="cobra_joy" pkg="cobra_joy" output="screen" >             
+  	</node> 
+	<node name="cobra_joy2" type="cobra_joy2" pkg="cobra_joy2" >             
+  	</node>
+	<node name="innfos_control" type="innfos_control" pkg="innfos_control"    >             
+  	</node> 
+             
+         <node name="nubot_timon" type="nubot_timon" pkg="nubot_timon"   >
+    		<param name="device" type="string" value="/dev/CLAW_USB" /> <!--/dev/TIMON_USB,ttyUSB0-->
+  	</node> 
+        
+       <param name="angle6_max" type="int" value="210" />  <!-- 爪子的抓紧的程度，数值越大合得越拢 170-壁合 -->
+       <param name="angle6_min" type="int" value="90" />  <!-- 爪子的张开的程度，数值越小张得越开 -->
+
+       <param name="kSpeedResolution" type="double" value="0.05" />  <!--末端平移速度分辨率-->
+       <param name="kRotateResolution" type="double" value="0.2" />  <!--末端顶点旋转速度分辨率-->
+
+
+
+       <param name="cobraNum1" type="int" value="0" />    <!-- 机械臂1的电机个数 -->
+       <param name="cobraNum2" type="int" value="6" />   <!-- 机械臂2的电机个数  双臂时为6，单臂时为0-->
+
+
+<!--第一个机械臂的参数👇👇👇👇👇👇-->
+
+	<param name="kFirstWhichJoy" type="string" value="/joy1" /><!-- 第一个机械臂监听的joy话题 -->
+       <param name="firstCobra_a2" type="double" value="0.81" />  <!-- 大臂长度 单位米 -->
+       <param name="firstCobra_a3" type="double" value="0.68" /><!-- 小臂长度 单位米 -->
+       <param name="firstCobra_a4" type="double" value="0.0" /><!-- 0.63 -->
+       <param name="firstCobra_d5" type="double" value="-0.07915" /><!--0.07915-->
+       <param name="firstCobra_d6" type="double" value="0.30" />
+       <param name="firstCobra_a6" type="double" value="0.0" />
+`	<rosparam param="firstCobra_DH_sign">[-1, 1, -1, 1, -1, -1]</rosparam><!--DH方向适配，不同机械臂可能不一样-->
+	<rosparam param="firstCobra_cobra_motor_sign">[-1, -1, -1, 1, -1, -1]</rosparam><!--遥控器与电机旋转方向适配，不同机械臂可能不一样-->
+	<rosparam param="firstCobra_pos2theta">[0, -90, -90, 0, 90, 90]</rosparam><!--电机角度到DH角度转换差值，不同机械臂可能不一样-->
+	<rosparam param="firstCobra_pos_extend">[0, 65, 60, -21, 0, 0]</rosparam><!--第一个机械臂的一键展开度数-->
+	<rosparam param="firstCobra_pos_init">[0, 65, 75, 85, 0, 0]</rosparam><!--第一个机械臂的一键归位度数-->
+	<rosparam param="firstLimitMax">[100, 68, 77, 110, 110, 180]</rosparam><!--第一个机械臂最大限位-->
+	<rosparam param="firstLimitMin">[-100, -92, -100, -180, -110, -180]</rosparam><!--第一个机械臂最小限位-->
+	<rosparam param="firstMotorSpeed">[200, 300, 300, 500, 500, 600]</rosparam><!--第一个机械臂各电机的一键模式的速度-->
+<!--第一个机械臂的参数☝☝☝☝☝☝-->
+
+
+<!--第二个机械臂的参数👇👇👇👇👇👇-->
+	<param name="kSecondWhichJoy" type="string" value="/joy" /><!-- 第二个机械臂监听的joy话题 -->
+       <param name="secondCobra_a2" type="double" value="0.51" />
+       <param name="secondCobra_a3" type="double" value="0.645" />
+       <param name="secondCobra_a4" type="double" value="0.063" />
+       <param name="secondCobra_d5" type="double" value="0" /><!--0.07915-->
+       <param name="secondCobra_d6" type="double" value="0.30" />
+       <param name="secondCobra_a6" type="double" value="0.0" />
+`	<rosparam param="secondCobra_DH_sign">[-1, -1, 1, 1, -1, -1]</rosparam> <!--DH方向适配，不同机械臂可能不一样-->
+	<rosparam param="secondCobra_cobra_motor_sign">[-1, 1, 1, 1, -1, -1]</rosparam><!--遥控器与电机旋转方向适配，不同机械臂可能不一样-->
+	<rosparam param="secondCobra_pos2theta">[0.0, 90.0, 90.0, 0.0, 90.0, 90.0]</rosparam><!--电机角度到DH角度转换差值，不同机械臂可能不一样-->
+	<rosparam param="secondCobra_pos_extend">[0.0, -55.0, -53.0, -10.0, 3.0, 0.0]</rosparam><!--第二个机械臂的一键展开度数-->
+	<rosparam param="secondCobra_pos_init">[0.0, -69.0, -76.0, -24.0, 3.0, 0.0]</rosparam><!--第二个机械臂的一键归位度数-->
+	<rosparam param="secondLimitMax">[180, 90, 90, 60, 60, 180]</rosparam><!--第二个机械臂最大限位-->
+	<rosparam param="secondLimitMin">[-160, -90, -70, -90, -90, -180]</rosparam><!--第二个机械臂最小限位-->
+	<rosparam param="secondMotorSpeed">[200, 300, 300, 500, 500, 600]</rosparam><!--第二个机械臂各电机的一键模式的速度-->
+
+<!--第二个机械臂的参数☝☝☝☝☝☝-->
+
+<!-- <node name="pumbaa_cobra_link" type="pumbaa_cobra_link" pkg="pumbaa_cobra_link" >
+</node>   -->
+
+</launch>

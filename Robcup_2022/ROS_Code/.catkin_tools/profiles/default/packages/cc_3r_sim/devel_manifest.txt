@@ -1,0 +1,5 @@
+cc_3r_sim
+/home/luo/Coppeliasim_Carla/Robcup_2022/ROS_Code/devel/.private/cc_3r_sim/lib/pkgconfig/cc_3r_sim.pc /home/luo/Coppeliasim_Carla/Robcup_2022/ROS_Code/devel/lib/pkgconfig/cc_3r_sim.pc
+/home/luo/Coppeliasim_Carla/Robcup_2022/ROS_Code/devel/.private/cc_3r_sim/lib/cc_3r_sim/cc_3r_sim /home/luo/Coppeliasim_Carla/Robcup_2022/ROS_Code/devel/lib/cc_3r_sim/cc_3r_sim
+/home/luo/Coppeliasim_Carla/Robcup_2022/ROS_Code/devel/.private/cc_3r_sim/share/cc_3r_sim/cmake/cc_3r_simConfig.cmake /home/luo/Coppeliasim_Carla/Robcup_2022/ROS_Code/devel/share/cc_3r_sim/cmake/cc_3r_simConfig.cmake
+/home/luo/Coppeliasim_Carla/Robcup_2022/ROS_Code/devel/.private/cc_3r_sim/share/cc_3r_sim/cmake/cc_3r_simConfig-version.cmake /home/luo/Coppeliasim_Carla/Robcup_2022/ROS_Code/devel/share/cc_3r_sim/cmake/cc_3r_simConfig-version.cmake

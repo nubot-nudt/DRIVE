@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+
+<launch>
+<arg name="rviz" default="false"/>
+
+        <node name="joy_node" type="joy_node" pkg="joy" output="screen" >             
+  	</node> 
+
+        <node name="r7_jacob_sim" type="r7_jacob_sim" pkg="r7_jacob_sim" output="screen" >             
+  	</node> 
+
+        <node name="r7_jacob_sim_2" type="r7_jacob_sim_2" pkg="r7_jacob_sim_2"  >             
+  	</node> 
+
+
+       <param name="kSpeedResolution" type="double" value="0.1" />  <!--末端平移速度分辨率-->
+       <param name="kRotateResolution" type="double" value="0.2" />  <!--末端顶点旋转速度分辨率-->
+
+
+
+       <param name="cobraNum1" type="int" value="7" />    <!-- 机械臂1的电机个数 -->
+       <param name="cobraNum2" type="int" value="7" />   <!-- 机械臂2的电机个数  双臂时为6，单臂时为0-->
+
+
+
+
+</launch>

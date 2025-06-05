@@ -1,0 +1,21 @@
+{
+    "files.associations": {
+        "ostream": "cpp",
+        "complex": "cpp",
+        "*.tcc": "cpp",
+        "iostream": "cpp",
+        "iomanip": "cpp",
+        "thread": "cpp"
+    },
+    "python.autoComplete.extraPaths": [
+        "/home/tc/Robcup_2022/ROS_Code/devel/lib/python2.7/dist-packages",
+        "/opt/ros/melodic/lib/python2.7/dist-packages",
+        "/opt/ros/dashing/lib/python3.6/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/luo/Coppeliasim_carla/Robcup_2022/TL_Code/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages",
+        "/home/luo/Coppeliasim_carla/carla_0_9_5/PythonAPI/carla/dist/carla-0.9.5-py3.5-linux-x86_64.egg",
+        "/home/luo/Coppeliasim_carla/carla_0_9_5/PythonAPI/carla"
+    ]
+}

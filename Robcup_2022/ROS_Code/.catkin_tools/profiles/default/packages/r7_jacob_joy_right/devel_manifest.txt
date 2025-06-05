@@ -1,0 +1,5 @@
+r7_jacob_joy_right
+/home/luo/Coppeliasim_Carla/Robcup_2022/ROS_Code/devel/.private/r7_jacob_joy_right/lib/pkgconfig/r7_jacob_joy_right.pc /home/luo/Coppeliasim_Carla/Robcup_2022/ROS_Code/devel/lib/pkgconfig/r7_jacob_joy_right.pc
+/home/luo/Coppeliasim_Carla/Robcup_2022/ROS_Code/devel/.private/r7_jacob_joy_right/lib/r7_jacob_joy_right/r7_jacob_joy_right /home/luo/Coppeliasim_Carla/Robcup_2022/ROS_Code/devel/lib/r7_jacob_joy_right/r7_jacob_joy_right
+/home/luo/Coppeliasim_Carla/Robcup_2022/ROS_Code/devel/.private/r7_jacob_joy_right/share/r7_jacob_joy_right/cmake/r7_jacob_joy_rightConfig.cmake /home/luo/Coppeliasim_Carla/Robcup_2022/ROS_Code/devel/share/r7_jacob_joy_right/cmake/r7_jacob_joy_rightConfig.cmake
+/home/luo/Coppeliasim_Carla/Robcup_2022/ROS_Code/devel/.private/r7_jacob_joy_right/share/r7_jacob_joy_right/cmake/r7_jacob_joy_rightConfig-version.cmake /home/luo/Coppeliasim_Carla/Robcup_2022/ROS_Code/devel/share/r7_jacob_joy_right/cmake/r7_jacob_joy_rightConfig-version.cmake

@@ -1,0 +1,6 @@
+<launch>   
+
+    <node pkg="tf" type="static_transform_publisher" name="odom_to_base" args="0.0 0.0 0.0 0 0 0.0 /odom /base_link 100" /> 
+    <node pkg="tf" type="static_transform_publisher" name="base_frame_laser" args="0 0 0 0 0 3.14159265 /base_link /laser 100" /> 
+
+</launch>

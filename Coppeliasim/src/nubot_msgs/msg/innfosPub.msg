@@ -1,0 +1,10 @@
+Header header
+float64[8] firstOriginalPos
+float64[8] secondOriginalPos
+float64[8] firstOriginalVel
+float64[8] secondOriginalVel
+float64[6] firstEndFS
+float64[6] secondEndFS
+float64[14] innfosTemperature
+float64[14] innfosCurrent
+bool enableOK

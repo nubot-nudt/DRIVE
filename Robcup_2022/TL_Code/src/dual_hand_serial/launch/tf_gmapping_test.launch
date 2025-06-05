@@ -1,0 +1,5 @@
+<launch>   
+
+    <node pkg="smartcar_slam" type="serial_port" name="tf_gmapping_test" output="screen"/>
+
+</launch>

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+
+<launch>
+<arg name="rviz" default="false"/>
+
+
+	<node name="n_imp_control" type="n_imp_control" pkg="n_imp_control" >             
+  	</node>
+
+
+</launch>

@@ -1,0 +1,8 @@
+#There are some params which will be loaded
+cobra_a2: 0.51
+cobra_a3: 0.645
+cobra_a4: 0.063
+#cobra_d5: 0.07915
+cobra_d5: 0.0
+cobra_d6: 0.430
+cobra_a6: 0.0

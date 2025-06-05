@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+
+<launch>
+<arg name="rviz" default="false"/>
+
+
+	<node name="r7_jacob_sim_2" type="r7_jacob_sim_2" pkg="r7_jacob_sim_2" >             
+  	</node>
+
+
+</launch>

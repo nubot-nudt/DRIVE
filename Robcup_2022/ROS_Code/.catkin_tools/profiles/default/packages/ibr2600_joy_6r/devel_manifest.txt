@@ -1,0 +1,5 @@
+ibr2600_joy_6r
+/home/luo/Coppeliasim_Carla/Robcup_2022/ROS_Code/devel/.private/ibr2600_joy_6r/lib/pkgconfig/ibr2600_joy_6r.pc /home/luo/Coppeliasim_Carla/Robcup_2022/ROS_Code/devel/lib/pkgconfig/ibr2600_joy_6r.pc
+/home/luo/Coppeliasim_Carla/Robcup_2022/ROS_Code/devel/.private/ibr2600_joy_6r/lib/ibr2600_joy_6r/ibr2600_joy /home/luo/Coppeliasim_Carla/Robcup_2022/ROS_Code/devel/lib/ibr2600_joy_6r/ibr2600_joy
+/home/luo/Coppeliasim_Carla/Robcup_2022/ROS_Code/devel/.private/ibr2600_joy_6r/share/ibr2600_joy_6r/cmake/ibr2600_joy_6rConfig.cmake /home/luo/Coppeliasim_Carla/Robcup_2022/ROS_Code/devel/share/ibr2600_joy_6r/cmake/ibr2600_joy_6rConfig.cmake
+/home/luo/Coppeliasim_Carla/Robcup_2022/ROS_Code/devel/.private/ibr2600_joy_6r/share/ibr2600_joy_6r/cmake/ibr2600_joy_6rConfig-version.cmake /home/luo/Coppeliasim_Carla/Robcup_2022/ROS_Code/devel/share/ibr2600_joy_6r/cmake/ibr2600_joy_6rConfig-version.cmake

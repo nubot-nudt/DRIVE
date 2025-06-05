@@ -1,0 +1,5 @@
+control_ps
+/home/luo/Coppeliasim_Carla/Robcup_2022/ROS_Code/devel/.private/control_ps/lib/pkgconfig/control_ps.pc /home/luo/Coppeliasim_Carla/Robcup_2022/ROS_Code/devel/lib/pkgconfig/control_ps.pc
+/home/luo/Coppeliasim_Carla/Robcup_2022/ROS_Code/devel/.private/control_ps/lib/control_ps/robot_moveControl /home/luo/Coppeliasim_Carla/Robcup_2022/ROS_Code/devel/lib/control_ps/robot_moveControl
+/home/luo/Coppeliasim_Carla/Robcup_2022/ROS_Code/devel/.private/control_ps/share/control_ps/cmake/control_psConfig-version.cmake /home/luo/Coppeliasim_Carla/Robcup_2022/ROS_Code/devel/share/control_ps/cmake/control_psConfig-version.cmake
+/home/luo/Coppeliasim_Carla/Robcup_2022/ROS_Code/devel/.private/control_ps/share/control_ps/cmake/control_psConfig.cmake /home/luo/Coppeliasim_Carla/Robcup_2022/ROS_Code/devel/share/control_ps/cmake/control_psConfig.cmake

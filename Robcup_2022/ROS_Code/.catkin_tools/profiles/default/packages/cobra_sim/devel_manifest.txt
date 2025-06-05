@@ -1,0 +1,5 @@
+cobra_sim
+/home/luo/Coppeliasim_Carla/Robcup_2022/ROS_Code/devel/.private/cobra_sim/lib/pkgconfig/cobra_sim.pc /home/luo/Coppeliasim_Carla/Robcup_2022/ROS_Code/devel/lib/pkgconfig/cobra_sim.pc
+/home/luo/Coppeliasim_Carla/Robcup_2022/ROS_Code/devel/.private/cobra_sim/lib/cobra_sim/joint_sim /home/luo/Coppeliasim_Carla/Robcup_2022/ROS_Code/devel/lib/cobra_sim/joint_sim
+/home/luo/Coppeliasim_Carla/Robcup_2022/ROS_Code/devel/.private/cobra_sim/share/cobra_sim/cmake/cobra_simConfig.cmake /home/luo/Coppeliasim_Carla/Robcup_2022/ROS_Code/devel/share/cobra_sim/cmake/cobra_simConfig.cmake
+/home/luo/Coppeliasim_Carla/Robcup_2022/ROS_Code/devel/.private/cobra_sim/share/cobra_sim/cmake/cobra_simConfig-version.cmake /home/luo/Coppeliasim_Carla/Robcup_2022/ROS_Code/devel/share/cobra_sim/cmake/cobra_simConfig-version.cmake
