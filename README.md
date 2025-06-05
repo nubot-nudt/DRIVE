@@ -15,7 +15,7 @@ If you use our code in your work, please star our repo and cite our paper.
 ```
 
 <div align=center>
-<img src="real_world_experiments.png"> 
+<img src="real_world_experiments.png" width="60%"> 
 </div>
 
 **Results of real world experiments.**
