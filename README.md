@@ -14,11 +14,7 @@ If you use our code in your work, please star our repo and cite our paper.
 }
 ```
 
-<div align=center>
-<img src="real_world_experiments.png" width="50%"> 
-</div>
 
-**Results of real world experiments.**
 
 ### Overview
 
@@ -174,6 +170,12 @@ In addition, the autonomous control code of the robotic arm in Coppeliasim and t
 
 **It should be noted** that after starting Coppeliasim, there will be 30 seconds for the reader to select the "vrep_steering_wheel_with_7Dof.ttt" robotic arm file; At the same time, after the reinforcement learning training code is started, click the right triangle start button in the upper right corner of Coppeliasim, and the code will start to execute. Before the code is executed, the pygame interface is black screen, which is normal. After startup, the vehicle will be loaded and training will begin.
 
+
+<div align=center>
+<img src="real_world_experiments.png" width="50%"> 
+</div>
+
+**Results of real world experiments.**
 
 ### Contact
 
