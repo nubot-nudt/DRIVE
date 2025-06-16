@@ -4,11 +4,13 @@
 
 ### Overview
 
+**The hybrid control framework of DRIVE.** 
+
 <div align=center>
 <img src="framework.png"> 
 </div>
 
-**The hybrid control framework of DRIVE.** The main contributions of this work can be summarized as follows:
+**The main contributions of this work can be summarized as follows:** 
 
 - End-to-end learning with embedded admittance control and preference adaptation.
 - Pioneering joint simulation framework for humanoid-driven vehicles.
