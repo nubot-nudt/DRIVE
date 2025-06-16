@@ -1,11 +1,13 @@
 # DRIVE: A Unified Framework for Empowering Personalized Autonomous Driving with Humanoid Robots
 
-### Project Page | [Video]()
+### Project Page | [Video](https://www.dropbox.com/scl/fi/1wvjw9ytll4ripxd5u6rb/drive.mp4?rlkey=ieb1meyzxvyp3h54vslaxl7ie&st=trcvi0mw&dl=0)
 
 This repo contains the implementation of our paper: 
 > **DRIVE: A Unified Framework for Empowering Personalized Autonomous Driving with Humanoid Robots**
+<div style="display:none">
 > 
 > Junkai Ren, Jiawei Luo*, Chuang Cheng, Yansong Feng, Tuochang Wu, Huimin Lu, Zongtan Zhou*, Xin Xu
+
 
 If you use our code in your work, please star our repo and cite our paper.
 
@@ -13,7 +15,7 @@ If you use our code in your work, please star our repo and cite our paper.
 @inproceedings{
 }
 ```
-
+</div>
 
 
 ### Overview
