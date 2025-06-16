@@ -8,7 +8,7 @@
 <img src="framework.png"> 
 </div>
 
-**The hybrid control framework of DRIVE.** The main contributions of thiswork can be summarized as follows:
+**The hybrid control framework of DRIVE.** The main contributions of this work can be summarized as follows:
 
 - End-to-end learning with embedded admittance control and preference adaptation.
 - Pioneering joint simulation framework for humanoid-driven vehicles.
@@ -142,7 +142,7 @@ Start the Coppeliasim simulation software and perform the following steps in seq
 rosrun r7_auto_sim r7_auto_sim_control
 ```
 
-Click the **right triangle execution button** in the upper right corner of the Coppeliaim interface. At this point, the robot's left arm turns the steering wheel, and the installation is successful.
+Click the **right triangle execution button** in the upper right corner of the CoppeliaSim interface. At this point, the robot's left arm turns the steering wheel, and the installation is successful.
 
 2、DRIVE test
 
@@ -150,18 +150,20 @@ Click the **right triangle execution button** in the upper right corner of the C
 bash ~/Coppeliasim_Carla/carla_with_coppeliasim.sh
 ```
 
-If everything goes smoothly, the ROS, Coppeliasim and Carla software will be launched in sequence.
+If everything goes smoothly, the ROS, CoppeliaSim, and Carla software will be launched in sequence.
 
-In addition, the autonomous control code of the robotic arm in Coppeliasim and the reinforcement learning training code for intelligent vehicles will also be executed.
+In addition, the autonomous control code of the robotic arm in CoppeliaSim and the reinforcement learning training code for intelligent vehicles will also be executed.
 
-**It should be noted** that after starting Coppeliasim, there will be 30 seconds for the reader to select the "vrep_steering_wheel_with_7Dof.ttt" robotic arm file; At the same time, after the reinforcement learning training code is started, click the right triangle start button in the upper right corner of Coppeliasim, and the code will start to execute. Before the code is executed, the pygame interface is black screen, which is normal. After startup, the vehicle will be loaded and training will begin.
+**It should be noted** that after starting Coppeliasim, there will be 30 seconds for the reader to select the "vrep_steering_wheel_with_7Dof.ttt" robotic arm file; At the same time, after the reinforcement learning training code is started, click the right triangle start button in the upper right corner of Coppeliasim, and the code will start to execute. Before the code is executed, the pygame interface is a black screen, which is normal. After startup, the vehicle will be loaded, and training will begin.
 
+
+
+
+**Results of real-world experiments**
 
 <div align=center>
 <img src="real_world_experiments.png" width="50%"> 
 </div>
-
-**Results of real world experiments.**
 
 ### Contact
 
